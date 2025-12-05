@@ -1,0 +1,20 @@
+# Environnements virtuels
+venv/
+.env/
+
+# Build / exécutables
+dist/
+build/
+*.exe
+*.bat
+*.spec
+
+# Caches Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Autres
+.DS_Store

@@ -1,0 +1,509 @@
+{
+  "domains": [
+    {
+      "id": "finance",
+      "label": "Finance",
+      "description": "Santé financière, rentabilité, trésorerie et valorisation",
+      "questions": [
+        {
+          "id": "finance_1",
+          "type": "stars",
+          "text": "La rentabilité de l'entreprise est-elle stable sur les 3 dernières années ?"
+        },
+        {
+          "id": "finance_2",
+          "type": "boolean",
+          "text": "La trésorerie permet-elle de couvrir 3 mois de charges fixes ?"
+        },
+        {
+          "id": "finance_3",
+          "type": "boolean",
+          "text": "Les comptes sont-ils certifiés par un expert-comptable ?"
+        },
+        {
+          "id": "finance_4",
+          "type": "stars",
+          "text": "Le niveau d'endettement est-il maîtrisé (ratio < 3) ?"
+        },
+        {
+          "id": "finance_5",
+          "type": "boolean",
+          "text": "Existe-t-il un tableau de bord financier régulièrement mis à jour ?"
+        },
+        {
+          "id": "finance_6",
+          "type": "stars",
+          "text": "La marge brute est-elle conforme au secteur d'activité ?"
+        }
+      ]
+    },
+    {
+      "id": "rh",
+      "label": "Ressources Humaines",
+      "description": "Équipe, compétences, culture et organisation RH",
+      "questions": [
+        {
+          "id": "rh_1",
+          "type": "boolean",
+          "text": "Le taux de turnover est-il inférieur à 15 % ?"
+        },
+        {
+          "id": "rh_2",
+          "type": "stars",
+          "text": "Les compétences clés sont-elles documentées et transférables ?"
+        },
+        {
+          "id": "rh_3",
+          "type": "boolean",
+          "text": "Existe-t-il un plan de formation structuré ?"
+        },
+        {
+          "id": "rh_4",
+          "type": "stars",
+          "text": "Le climat social est-il favorable ?"
+        },
+        {
+          "id": "rh_5",
+          "type": "boolean",
+          "text": "Les contrats de travail sont-ils conformes et à jour ?"
+        },
+        {
+          "id": "rh_6",
+          "type": "stars",
+          "text": "Y a-t-il des personnes clés indispensables au fonctionnement ?"
+        }
+      ]
+    },
+    {
+      "id": "commercial",
+      "label": "Commercial & Marketing",
+      "description": "Clients, marché, ventes et stratégie commerciale",
+      "questions": [
+        {
+          "id": "commercial_1",
+          "type": "boolean",
+          "text": "Le portefeuille clients est-il diversifié (pas de dépendance > 30 %) ?"
+        },
+        {
+          "id": "commercial_2",
+          "type": "stars",
+          "text": "Le taux de fidélisation client est-il satisfaisant ?"
+        },
+        {
+          "id": "commercial_3",
+          "type": "boolean",
+          "text": "La stratégie commerciale est-elle formalisée ?"
+        },
+        {
+          "id": "commercial_4",
+          "type": "stars",
+          "text": "Le positionnement prix est-il compétitif ?"
+        },
+        {
+          "id": "commercial_5",
+          "type": "stars",
+          "text": "Les contrats clients sont-ils sécurisés et récurrents ?"
+        },
+        {
+          "id": "commercial_6",
+          "type": "stars",
+          "text": "La notoriété de la marque est-elle établie ?"
+        }
+      ]
+    },
+    {
+      "id": "production",
+      "label": "Production & Opérations",
+      "description": "Processus, qualité, capacités et efficacité opérationnelle",
+      "questions": [
+        {
+          "id": "production_1",
+          "type": "boolean",
+          "text": "Les processus de production sont-ils documentés ?"
+        },
+        {
+          "id": "production_2",
+          "type": "stars",
+          "text": "Le taux de qualité/conformité est-il supérieur à 95 % ?"
+        },
+        {
+          "id": "production_3",
+          "type": "stars",
+          "text": "Les équipements sont-ils en bon état et entretenus ?"
+        },
+        {
+          "id": "production_4",
+          "type": "boolean",
+          "text": "La capacité de production peut-elle être augmentée ?"
+        },
+        {
+          "id": "production_5",
+          "type": "stars",
+          "text": "Les fournisseurs clés sont-ils fiables et diversifiés ?"
+        },
+        {
+          "id": "production_6",
+          "type": "boolean",
+          "text": "Existe-t-il des certifications qualité (ISO, etc.) ?"
+        }
+      ]
+    },
+    {
+      "id": "juridique",
+      "label": "Juridique & Conformité",
+      "description": "Contrats, propriété intellectuelle et conformité réglementaire",
+      "questions": [
+        {
+          "id": "juridique_1",
+          "type": "boolean",
+          "text": "Les statuts et documents sociaux sont-ils à jour ?"
+        },
+        {
+          "id": "juridique_2",
+          "type": "boolean",
+          "text": "Y a-t-il des litiges en cours ou potentiels ?"
+        },
+        {
+          "id": "juridique_3",
+          "type": "stars",
+          "text": "La propriété intellectuelle est-elle protégée ?"
+        },
+        {
+          "id": "juridique_4",
+          "type": "stars",
+          "text": "Les baux et contrats importants sont-ils sécurisés ?"
+        },
+        {
+          "id": "juridique_5",
+          "type": "boolean",
+          "text": "L'entreprise est-elle conforme au RGPD ?"
+        },
+        {
+          "id": "juridique_6",
+          "type": "boolean",
+          "text": "Les assurances sont-elles adaptées et à jour ?"
+        }
+      ]
+    },
+    {
+      "id": "si",
+      "label": "Systèmes d'Information",
+      "description": "Infrastructure IT, données et sécurité informatique",
+      "questions": [
+        {
+          "id": "si_1",
+          "type": "stars",
+          "text": "L'infrastructure IT est-elle documentée et maintenue ?"
+        },
+        {
+          "id": "si_2",
+          "type": "boolean",
+          "text": "Les données sont-elles sauvegardées régulièrement ?"
+        },
+        {
+          "id": "si_3",
+          "type": "stars",
+          "text": "La cybersécurité est-elle au niveau requis ?"
+        },
+        {
+          "id": "si_4",
+          "type": "stars",
+          "text": "Les logiciels métier sont-ils standards ou propriétaires ?"
+        },
+        {
+          "id": "si_5",
+          "type": "boolean",
+          "text": "Un plan de continuité d'activité existe-t-il ?"
+        },
+        {
+          "id": "si_6",
+          "type": "boolean",
+          "text": "Les accès et mots de passe sont-ils gérés de manière sécurisée ?"
+        }
+      ]
+    },
+    {
+      "id": "strategie",
+      "label": "Stratégie & Gouvernance",
+      "description": "Vision, positionnement et prise de décision",
+      "questions": [
+        {
+          "id": "strategie_1",
+          "type": "stars",
+          "text": "La vision et la stratégie sont-elles clairement définies ?"
+        },
+        {
+          "id": "strategie_2",
+          "type": "stars",
+          "text": "Le marché cible présente-t-il un potentiel de croissance ?"
+        },
+        {
+          "id": "strategie_3",
+          "type": "stars",
+          "text": "Les avantages concurrentiels sont-ils identifiés et durables ?"
+        },
+        {
+          "id": "strategie_4",
+          "type": "boolean",
+          "text": "La gouvernance est-elle structurée (comité, réunions) ?"
+        },
+        {
+          "id": "strategie_5",
+          "type": "boolean",
+          "text": "Un business plan à 3 ans existe-t-il ?"
+        },
+        {
+          "id": "strategie_6",
+          "type": "stars",
+          "text": "Les décisions sont-elles prises de manière collégiale ?"
+        }
+      ]
+    },
+    {
+      "id": "organisation",
+      "label": "Organisation & Processus",
+      "description": "Structure, workflows et documentation interne",
+      "questions": [
+        {
+          "id": "organisation_1",
+          "type": "boolean",
+          "text": "L'organigramme est-il clair et à jour ?"
+        },
+        {
+          "id": "organisation_2",
+          "type": "stars",
+          "text": "Les processus métier sont-ils documentés ?"
+        },
+        {
+          "id": "organisation_3",
+          "type": "stars",
+          "text": "La délégation des responsabilités est-elle effective ?"
+        },
+        {
+          "id": "organisation_4",
+          "type": "stars",
+          "text": "Les réunions sont-elles efficaces et structurées ?"
+        },
+        {
+          "id": "organisation_5",
+          "type": "stars",
+          "text": "La communication interne est-elle fluide ?"
+        },
+        {
+          "id": "organisation_6",
+          "type": "stars",
+          "text": "L'entreprise peut-elle fonctionner sans le dirigeant ?"
+        }
+      ]
+    }
+  ],
+
+  
+
+  "sectors": [
+  {
+    "id": "tech",
+    "label": "Technologie / Start-up",
+    "extra_questions": {
+      "rh": [
+        {
+          "id": "rh_tech_1",
+          "type": "stars",
+          "text": "Les compétences techniques clés sont-elles sécurisées (peu de dépendance à une seule personne) ?"
+        }
+      ],
+      "si": [
+        {
+          "id": "si_tech_1",
+          "type": "boolean",
+          "text": "L'entreprise utilise-t-elle une infrastructure cloud certifiée et sécurisée ?"
+        }
+      ]
+    }
+  },
+
+  {
+    "id": "industrie",
+    "label": "Industrie / Production",
+    "extra_questions": {
+      "production": [
+        {
+          "id": "production_ind_1",
+          "type": "stars",
+          "text": "Le taux d'utilisation des capacités de production est-il optimisé ?"
+        },
+        {
+          "id": "production_ind_2",
+          "type": "boolean",
+          "text": "Les plans de maintenance préventive sont-ils formalisés ?"
+        }
+      ],
+      "organisation": [
+        {
+          "id": "organisation_ind_1",
+          "type": "boolean",
+          "text": "Les procédures HSE (hygiène, sécurité, environnement) sont-elles mises à jour et suivies ?"
+        }
+      ]
+    }
+  },
+
+  {
+    "id": "services",
+    "label": "Services / Conseil",
+    "extra_questions": {
+      "rh": [
+        {
+          "id": "rh_serv_1",
+          "type": "stars",
+          "text": "La planification des ressources (charge vs capacité) est-elle maîtrisée ?"
+        }
+      ],
+      "commercial": [
+        {
+          "id": "commercial_serv_1",
+          "type": "stars",
+          "text": "Les offres et prestations sont-elles clairement packagées et tarifées ?"
+        }
+      ],
+      "organisation": [
+        {
+          "id": "organisation_serv_1",
+          "type": "boolean",
+          "text": "Les méthodes et livrables sont-ils documentés pour assurer l'homogénéité des missions ?"
+        }
+      ]
+    }
+  },
+
+
+  {
+  "id": "commerce",
+  "label": "Commerce / Retail",
+  "extra_questions": {
+    "commercial": [
+      {
+        "id": "commercial_com_1",
+        "type": "stars",
+        "text": "La gestion des stocks est-elle optimisée (rotation, ruptures, surstocks) ?"
+      },
+      {
+        "id": "commercial_com_2",
+        "type": "boolean",
+        "text": "L'entreprise utilise-t-elle un système d'encaissement moderne et sécurisé ?"
+      }
+    ],
+    "organisation": [
+      {
+        "id": "organisation_com_1",
+        "type": "boolean",
+        "text": "Les procédures d'ouverture, de fermeture et d'inventaires sont-elles formalisées ?"
+      }
+    ]
+  }
+},
+
+
+{
+  "id": "sante",
+  "label": "Santé / Services médicaux",
+  "extra_questions": {
+    "juridique": [
+      {
+        "id": "juridique_sante_1",
+        "type": "boolean",
+        "text": "Les normes sanitaires et réglementaires sont-elles strictement respectées ?"
+      }
+    ],
+    "organisation": [
+      {
+        "id": "organisation_sante_1",
+        "type": "stars",
+        "text": "La gestion des dossiers patients est-elle sécurisée et conforme au RGPD ?"
+      }
+    ],
+    "rh": [
+      {
+        "id": "rh_sante_1",
+        "type": "stars",
+        "text": "Le personnel bénéficie-t-il d'une formation continue adaptée aux pratiques médicales ?"
+      }
+    ]
+  }
+},
+
+
+{
+  "id": "btp",
+  "label": "Bâtiment / Construction",
+  "extra_questions": {
+    "production": [
+      {
+        "id": "production_btp_1",
+        "type": "boolean",
+        "text": "Les chantiers respectent-ils systématiquement les délais annoncés ?"
+      },
+      {
+        "id": "production_btp_2",
+        "type": "stars",
+        "text": "Les règles de sécurité chantier sont-elles appliquées et contrôlées ?"
+      }
+    ],
+    "juridique": [
+      {
+        "id": "juridique_btp_1",
+        "type": "boolean",
+        "text": "Les contrats clients et sous-traitants sont-ils sécurisés ?"
+      }
+    ],
+    "finance": [
+      {
+        "id": "finance_btp_1",
+        "type": "stars",
+        "text": "La marge sur les chantiers est-elle maîtrisée ?"
+      }
+    ]
+  }
+},
+
+
+{
+  "id": "agro",
+  "label": "Agroalimentaire / Agritech",
+  "extra_questions": {
+    "production": [
+      {
+        "id": "production_agro_1",
+        "type": "boolean",
+        "text": "Les normes d'hygiène (HACCP) sont-elles formalisées et suivies ?"
+      },
+      {
+        "id": "production_agro_2",
+        "type": "stars",
+        "text": "Le taux de conformité qualité est-il supérieur à 98 % ?"
+      }
+    ],
+    "strategie": [
+      {
+        "id": "strategie_agro_1",
+        "type": "stars",
+        "text": "L'entreprise innove-t-elle régulièrement dans ses produits ou procédés ?"
+      }
+    ],
+    "commercial": [
+      {
+        "id": "commercial_agro_1",
+        "type": "boolean",
+        "text": "Les certifications (bio, label rouge, etc.) sont-elles en place lorsque pertinent ?"
+      }
+    ]
+  }
+}
+
+
+
+
+
+]
+
+}

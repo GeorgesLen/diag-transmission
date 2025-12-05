@@ -1,0 +1,9 @@
+[project]
+name = "my_project"
+version = "0.1.0"
+description = "Un projet Python structuré"
+authors = [{name = "Ton Nom"}]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,69 @@
+{
+  "finance": {
+    "finance_1": 3,
+    "finance_2": true,
+    "finance_3": true,
+    "finance_4": 1,
+    "finance_5": false,
+    "finance_6": 1
+  },
+  "rh": {
+    "rh_1": true,
+    "rh_2": 4,
+    "rh_3": true,
+    "rh_4": 3,
+    "rh_5": true,
+    "rh_6": 1,
+    "rh_serv_1": 3
+  },
+  "commercial": {
+    "commercial_1": true,
+    "commercial_2": 5,
+    "commercial_3": true,
+    "commercial_4": 5,
+    "commercial_5": 3,
+    "commercial_6": 2,
+    "commercial_serv_1": 2
+  },
+  "production": {
+    "production_1": false,
+    "production_2": 5,
+    "production_3": 1,
+    "production_4": false,
+    "production_5": 2,
+    "production_6": true
+  },
+  "juridique": {
+    "juridique_1": false,
+    "juridique_2": false,
+    "juridique_3": 1,
+    "juridique_4": 5,
+    "juridique_5": true,
+    "juridique_6": false
+  },
+  "si": {
+    "si_1": 3,
+    "si_2": false,
+    "si_3": 1,
+    "si_4": 5,
+    "si_5": true,
+    "si_6": false
+  },
+  "strategie": {
+    "strategie_1": 1,
+    "strategie_2": 5,
+    "strategie_3": 1,
+    "strategie_4": true,
+    "strategie_5": true,
+    "strategie_6": 4
+  },
+  "organisation": {
+    "organisation_1": true,
+    "organisation_2": 3,
+    "organisation_3": 2,
+    "organisation_4": 2,
+    "organisation_5": 1,
+    "organisation_6": 5,
+    "organisation_serv_1": true
+  }
+}
